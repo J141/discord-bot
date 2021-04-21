@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Pokemon Lookup App",
+    "tags": [
+      "easy",
+      "beginner",
+      "spa",
+      "react",
+      "vue",
+      "angular",
+      "front-end",
+      "frontend"
+    ],
+    "description": "Using [PokeAPI](https://pokeapi.co/) to retrieve and parse data into your view, build a pokemon lookup app.\n\nUpon searching a specific pokemon, a button should be clicked to add it to the current view. This button generates a component which contains the pokemon's information: every new search adds a new component.\n\n**Bonus:** have a \"get random pokemon\" button."
+  },
+  {
+    "title": "Transfers Dashboard",
+    "tags": [
+      "general",
+      "medium",
+      "fullstack",
+      "full-stack"
+    ],
+    "description": "Create a dashboard which visualises self-generated data.\n\nA backend inserts in a database using an ORM money transfers. These transfers should have a:\n- Date\n- Currency (positive and negative)\n- Sender (who sent the money)\n\nThe dashboard has to display relevant results for the data, which should be paginated and sortable."
+  },
+  {
+    "title": "Project Ideas Application",
+    "tags": [
+      "easy",
+      "beginner",
+      "back-end",
+      "backend"
+    ],
+    "description": "Create an app that gives users ideas for their next project. The user should easily find specific project ideas based on some input."
+  },
+  {
+    "title": "Lists Application",
+    "tags": [
+      "easy",
+      "beginner",
+      "fullstack",
+      "full-stack"
+    ],
+    "description": "A backend serves some list data and the frontend displays said list data.\n\n**Bonus:** Add tags to the lists and use a specification pattern to filter the list items based on a property."
+  },
+  {
+    "title": "Chat Application",
+    "tags": [
+      "medium",
+      "backend",
+      "back-end",
+      "websockets"
+    ],
+    "description": "Create your own text-based chat application allowing two different browsers to talk to one another using web sockets.\n\nIt should be possible for the chat application to do group and single person messaging (private rooms).\n\n**Bonus:** Provide a interactive GUI for the chat application."
+  },
+  {
+    "title": "South Park AI",
+    "tags": [
+      "medium",
+      "ML",
+      "AI",
+      "training"
+    ],
+    "description": "Using [this](https://raw.githubusercontent.com/Eryck13/SouthParkTranscripts/master/south.json) dataset, generate a service which can print out south park lines on request.\n\nTrain your model with the given dataset and do sanitise the dataset."
+  },
+  {
+    "title": "Cake Shop",
+    "tags": [
+      "Beginner",
+      "medium",
+      "front-end",
+      "frontend",
+      "backend",
+      "back-end"
+    ],
+    "description": "Create an e-commerce website for a cake store and provide an API where the owner of the shop can easily add new cakes to be sold.\n\nCakes should include specific information such as ingredients, costs, details on the cake, etc...\nOn the ingredients, automatic allergy detection should be present and warning should be given if allergies are a threat."
+  },
+  {
+    "title": "Functional Analog Clock and Timer",
+    "tags": [
+      "easy",
+      "beginner",
+      "medium",
+      "front-end",
+      "frontend",
+      "javafx",
+      "wpf",
+      "css"
+    ],
+    "description": "Build a functional analog clock which displays the current time and add a timer function which times in real time.\n\nHours minutes and seconds should be visible, in addition, a digital timer should be accessible next to it. This project requires some math to complete."
+  },
+  {
+    "title": "Project management tool",
+    "tags": [
+      "medium",
+      "fullstack"
+    ],
+    "description": "Create a tool which can help you (and others) to finish their project. Projects should have deadlines and specific dates to complete certain tasks. Include a way to tag your projects, as well as a calendar to show timelines.\n\n**Bonus:** Generate an ICO file or integrate with the Google Calendar API."
+  },
+  {
+    "title": "CV Tool",
+    "tags": [
+      "medium",
+      "front-end",
+      "frontend"
+    ],
+    "description": "Making a CV is old fashioned, especially for developers, but it's the 'normal way of doing things'. Create a website which contains your CV information in website format.\n\nAdd a button which parses the information to PDF format in a neat CV.\n\n**Bonus:** Add support for showing your CV through a QR code (this is great for business cards)."
+  },
+  {
+    "title": "Microservice challenge and questions app",
+    "tags": [
+      "hard",
+      "microservices",
+      "distributed",
+      "docker",
+      "backend",
+      "back-end"
+    ],
+    "description": "Make a microservice application using the 12 factor paradigma as backbone to the application. Use messaging for the main communication between the application (or regular rest calls if this is too hard). Do mind you'll need a SAGA pattern for resources shared between microservices. The following domains should be in the application: User service, Game service, Team service. The game service needs to handle several different type of questions/challenges. Bonus: Add an api gateway (reverse proxy) which handles all the traffic flow inside the application. Use JWT tokens for security."
+  },
+  {
+    "title": "Card Game",
+    "tags": [
+      "easy"
+    ],
+    "description": "Pick the correct collection which allows you to take the first or the last card of a stack. The card game contains a whole deck of cards: spades, diamonds, clubs and hearts, ace - king.\n\nWrite an implementation which generates this deck of cards (use a nested for loop), has a shuffle functionality to randomise the collection. Once you have a collection with cards, try to make a higher lower game.\n\nThe following format should be taken:\n- CPU drew the 10 of clubs\n- Player drew the king of hearts\n- Player has the highest card, player wins\n\n**Bonus:** Make a GUI or web app for the game."
+  },
+  {
+    "title": "World Health Dashboard",
+    "tags": [
+      "front-end",
+      "frontend",
+      "medium",
+      "spa",
+      "angular",
+      "vue",
+      "react"
+    ],
+    "description": "Create a dashboard with data visualisation on the following [dataset]( https://www.who.int/data/gho/info/gho-odata-api)\n\nAdd in filtering options, searching options with auto completion."
+  },
+  {
+    "title": "Ice Cream App",
+    "tags": [
+      "front-end",
+      "frontend",
+      "medium",
+      "spa",
+      "angular",
+      "vue",
+      "react",
+      "patterns"
+    ],
+    "description": "Create an app where users can order their own ice cream.\n\nStart with asking for a cone or a cup (or other options). Next add the ability to add flavors. Do show extra information concerning these flavors, such as vegan, home made, etc. Show warnings for potential allergies. give the option for decoration, such as caramel, chocolate, strawberry dip, fruits, etc. All these options should make use of search options using a searchbar which makes use of a specification pattern. The ice cream itself should make use of a decorator pattern. Allow a user to purchase multiple ice creams. At the end of the selection, display the total costs + allergy warnings. Different flavors / options can have different prices."
+  },
+  {
+    "title": "Code Snippet Application",
+    "tags": [
+      "back-end",
+      "backend",
+      "medium"
+    ],
+    "description": "Design an application which can be used to easily exchange small code snippets between developers.\n\nThese snippets should be search-able on given params. In addition, if a search is done on multiple code snippets return this result with pagination."
+  },
+  {
+    "title": "Potion Brewing App",
+    "tags": [
+      "medium",
+      "fullstack",
+      "front-end",
+      "frontend",
+      "backend",
+      "back-end"
+    ],
+    "description": "Have a list of ingredients. You can add these ingredients in a sequence. When a specific combination of ingredients are present, they may merge into another ingredient (which is not present in the selection list). Once all ingredients are calculated, the potion should brew into a specific potion depending on the ingredients. Ingredients are handled as they are added. For instance, water + herb + sugar would yield tea + sugar would yield sweet tea. water + sugar + herb would yield sugar water + herb (sugar water + herb doesn't appear to have a path in this mixture).\n\n**Bonus:** Allow 'actions' to be done in the ingredient list, such as warm up, cool down, rest, mix and so on. These actions exist in their own selection list. Depending on these actions, specific ingredients may be formed."
+  },
+  {
+    "title": "Age Calculator",
+    "tags": [
+      "easy",
+      "beginner"
+    ],
+    "description": "Ask a user their timezone location. After you got the timezone, ask the user for their birth date. Calculate the current age of the user, and when the user's next birthday is in months, weeks, days, hours, minutes, seconds.\n\n **bonus:** automatically get their timezone."
+  },
+  {
+    "title": "Freedom Units",
+    "tags": [
+      "easy",
+      "beginner"
+    ],
+    "description": "Allow the user to select what they want to convere: temperature, length, weight. Allow the user to select their own known type (for instance, they can select celcius / farhenheid / kelvin / ...). The output will be the other options with their re-calculated value.\n\n**Bonus:** Provide chemical mole calculations / physics calories calculations, etc."
+  },
+  {
+    "title": "Weather App",
+    "tags": [
+      "easy",
+      "beginner",
+      "front-end",
+      "frontend"
+    ],
+    "description": "Use the following [API](https://openweathermap.org/current) to get weather data. In an input box, request the location of where the user wants to see the weather from. Send this data to the above API. The output should be seen on the screen as \\\"The weather at LOCATION is currently DESCRIPTION with a temperature of TEMPERATURE\\\".\n\n**bonus:** by default show their current location's weather."
+  },
+  {
+    "title": "Movie List App",
+    "tags": [
+      "medium",
+      "fullstack"
+    ],
+    "description": "Make an app that lists out the movies you put into it. The movies should get a rating, description, picture and genre. You should be able to sort on rating and genre. The rating should be represented as 0 to 5 stars, and should progress in half stars. The application should make use of pagination. Display 10 movies, upon scrolling 80% of the list, load in the next 10 movies.\n\n You should be able to search on the movies in a search box. The following properties should be searchable in the one and same input box; rating (number), genre and description. You can use a specification pattern for this.\n\nAllow a user to input new movies in their list using a form. The genre selection should be a dropdown. Upon selecting an item from this dropdown, add it to a list and add another dropdown which allows the user to select another genre. Furthermore the description should be written by the user.\n\n**Bonus**: search for an API which can fetch you the description of the movie."
+  },
+  {
+    "title": "Mastermind",
+    "tags": [
+      "easy",
+      "beginner"
+    ],
+    "description": "Generate a sequence of 4, made of 5 different colors (duplicates are allowed) represented by a letter (R = Red, B = Blue, G = green, W = white, P = pink). The user will have 12 chances to guess the correct collors and the correct sequence of these colors, for instance. The user guesses by putting in a string, for instance : PPWBR would be a guess for pink pink white blue red.\n\n The output of the computer when guessing is one of the following: \n-'Correct, player wins'\n-'Incorrect, player losers' (after 12 rounds) \n-'Incorrect, 1 color is in the correct location, 2 are correct but at the wrong location'\n\n (these numbers can vary)."
+  },
+  {
+    "title": "What Do We Eat Today?",
+    "tags": [
+      "medium",
+      "backend",
+      "back-end"
+    ],
+    "description": "Create a database with things to eat. Every day you eat something, enrich this database with the thing you ate. If you're out of options on what to cook or going out to get something or so on, query your database. It should have bias towards something you haven't had for quite some time. Add other bias options, for instance, the user should be able to select if they want something healthy to eat, on which the program should give a healthier suggestion. You can add further bias on \"what do I like\". And obvious - every Wednesday it should output pizza !"
+  }
+]
