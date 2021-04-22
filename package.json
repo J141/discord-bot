@@ -28,8 +28,10 @@
   },
   "homepage": "https://github.com/codesupport/discord-bot#readme",
   "dependencies": {
+    "@types/caniuse-lite": "^1.0.0",
     "axios": "^0.21.1",
     "axios-cache-adapter": "^2.5.0",
+    "caniuse-lite": "^1.0.30001214",
     "discord.js": "^12.5.0",
     "dotenv": "^8.2.0",
     "twitter": "^1.7.1"
